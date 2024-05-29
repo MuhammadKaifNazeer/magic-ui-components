@@ -5,6 +5,7 @@ import { BeamSix } from "@/components/AnimatedBeams/BeamSix/BeamSix";
 import { BeamThree } from "@/components/AnimatedBeams/BeamThree/BeamThree";
 import { BeamTwo } from "@/components/AnimatedBeams/BeamTwo/BeamTwo";
 import { AnimatedListComponent } from "@/components/AnimatedList/AnimatedList";
+import { BentoGridComponent } from "@/components/BentoGrid/BentoGrid";
 import { DockComponent } from "@/components/Dock/Dock";
 import { OrbitingIcons } from "@/components/OrbitingIcons/OrbitingIcons";
 import { ThemeToggler } from "@/components/ThemeToggler/ThemeToggler";
@@ -25,6 +26,7 @@ export default function Home() {
         {/* <AnimatedListComponent /> */}
         <DockComponent />
         <OrbitingIcons />
+        <BentoGridComponent />
       </div>
     </>
   );
