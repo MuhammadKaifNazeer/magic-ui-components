@@ -5,6 +5,7 @@ import { BeamSix } from "@/components/AnimatedBeams/BeamSix/BeamSix";
 import { BeamThree } from "@/components/AnimatedBeams/BeamThree/BeamThree";
 import { BeamTwo } from "@/components/AnimatedBeams/BeamTwo/BeamTwo";
 import { AnimatedListComponent } from "@/components/AnimatedList/AnimatedList";
+import { DockComponent } from "@/components/Dock/Dock";
 import { ThemeToggler } from "@/components/ThemeToggler/ThemeToggler";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
@@ -21,6 +22,7 @@ export default function Home() {
         <BeamFive />
         <BeamSix />
         {/* <AnimatedListComponent /> */}
+        <DockComponent />
       </div>
     </>
   );
